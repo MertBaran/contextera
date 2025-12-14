@@ -18,3 +18,6 @@ Package.resolved
 # Xcode debugger & schemes
 xcdebugger/
 *.xcscheme
+**/xcuserdata/
+**/*.xcuserdatad/
+**/xcdebugger/
