@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A9F9E82EEEE3F900341994 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9F9E42EEEE1DA00341994 /* ContentView.swift */; };
+		18A9F9EA2EEEE40E00341994 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9F9E32EEEE0CC00341994 /* AppModel.swift */; };
+		18A9F9EB2EEEE41400341994 /* FolderScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9F9E22EEEE0B400341994 /* FolderScanner.swift */; };
+		18A9F9EC2EEEE41900341994 /* Domain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9F9E12EEEE08E00341994 /* Domain.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A9F9C32EEEDB0600341994 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A9F9AC2EEEDB0400341994 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A9F9B32EEEDB0400341994;
+			remoteInfo = Contextera;
+		};
+		18A9F9CD2EEEDB0600341994 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A9F9AC2EEEDB0400341994 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A9F9B32EEEDB0400341994;
+			remoteInfo = Contextera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A9F9B42EEEDB0400341994 /* Contextera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contextera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A9F9C22EEEDB0600341994 /* ContexteraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContexteraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A9F9CC2EEEDB0600341994 /* ContexteraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContexteraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A9F9E12EEEE08E00341994 /* Domain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domain.swift; sourceTree = "<group>"; };
+		18A9F9E22EEEE0B400341994 /* FolderScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderScanner.swift; sourceTree = "<group>"; };
+		18A9F9E32EEEE0CC00341994 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		18A9F9E42EEEE1DA00341994 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		18A9F9B62EEEDB0400341994 /* Contextera */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Contextera;
+			sourceTree = "<group>";
+		};
+		18A9F9C52EEEDB0600341994 /* ContexteraTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ContexteraTests;
+			sourceTree = "<group>";
+		};
+		18A9F9CF2EEEDB0600341994 /* ContexteraUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ContexteraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A9F9B12EEEDB0400341994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A9F9BF2EEEDB0600341994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A9F9C92EEEDB0600341994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A9F9AB2EEEDB0400341994 = {
+			isa = PBXGroup;
+			children = (
+				18A9F9E02EEEE07F00341994 /* UI */,
+				18A9F9DF2EEEE07400341994 /* Core */,
+				18A9F9B62EEEDB0400341994 /* Contextera */,
+				18A9F9C52EEEDB0600341994 /* ContexteraTests */,
+				18A9F9CF2EEEDB0600341994 /* ContexteraUITests */,
+				18A9F9B52EEEDB0400341994 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A9F9B52EEEDB0400341994 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A9F9B42EEEDB0400341994 /* Contextera.app */,
+				18A9F9C22EEEDB0600341994 /* ContexteraTests.xctest */,
+				18A9F9CC2EEEDB0600341994 /* ContexteraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A9F9DF2EEEE07400341994 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				18A9F9E62EEEE22000341994 /* Mocks */,
+				18A9F9E32EEEE0CC00341994 /* AppModel.swift */,
+				18A9F9E22EEEE0B400341994 /* FolderScanner.swift */,
+				18A9F9E12EEEE08E00341994 /* Domain.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		18A9F9E02EEEE07F00341994 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				18A9F9E42EEEE1DA00341994 /* ContentView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		18A9F9E62EEEE22000341994 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A9F9B32EEEDB0400341994 /* Contextera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A9F9D62EEEDB0600341994 /* Build configuration list for PBXNativeTarget "Contextera" */;
+			buildPhases = (
+				18A9F9B02EEEDB0400341994 /* Sources */,
+				18A9F9B12EEEDB0400341994 /* Frameworks */,
+				18A9F9B22EEEDB0400341994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				18A9F9B62EEEDB0400341994 /* Contextera */,
+			);
+			name = Contextera;
+			packageProductDependencies = (
+			);
+			productName = Contextera;
+			productReference = 18A9F9B42EEEDB0400341994 /* Contextera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A9F9C12EEEDB0600341994 /* ContexteraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A9F9D92EEEDB0600341994 /* Build configuration list for PBXNativeTarget "ContexteraTests" */;
+			buildPhases = (
+				18A9F9BE2EEEDB0600341994 /* Sources */,
+				18A9F9BF2EEEDB0600341994 /* Frameworks */,
+				18A9F9C02EEEDB0600341994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A9F9C42EEEDB0600341994 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				18A9F9C52EEEDB0600341994 /* ContexteraTests */,
+			);
+			name = ContexteraTests;
+			packageProductDependencies = (
+			);
+			productName = ContexteraTests;
+			productReference = 18A9F9C22EEEDB0600341994 /* ContexteraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18A9F9CB2EEEDB0600341994 /* ContexteraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A9F9DC2EEEDB0600341994 /* Build configuration list for PBXNativeTarget "ContexteraUITests" */;
+			buildPhases = (
+				18A9F9C82EEEDB0600341994 /* Sources */,
+				18A9F9C92EEEDB0600341994 /* Frameworks */,
+				18A9F9CA2EEEDB0600341994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A9F9CE2EEEDB0600341994 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				18A9F9CF2EEEDB0600341994 /* ContexteraUITests */,
+			);
+			name = ContexteraUITests;
+			packageProductDependencies = (
+			);
+			productName = ContexteraUITests;
+			productReference = 18A9F9CC2EEEDB0600341994 /* ContexteraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A9F9AC2EEEDB0400341994 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					18A9F9B32EEEDB0400341994 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					18A9F9C12EEEDB0600341994 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 18A9F9B32EEEDB0400341994;
+					};
+					18A9F9CB2EEEDB0600341994 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 18A9F9B32EEEDB0400341994;
+					};
+				};
+			};
+			buildConfigurationList = 18A9F9AF2EEEDB0400341994 /* Build configuration list for PBXProject "Contextera" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A9F9AB2EEEDB0400341994;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 18A9F9B52EEEDB0400341994 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A9F9B32EEEDB0400341994 /* Contextera */,
+				18A9F9C12EEEDB0600341994 /* ContexteraTests */,
+				18A9F9CB2EEEDB0600341994 /* ContexteraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A9F9B22EEEDB0400341994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A9F9C02EEEDB0600341994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A9F9CA2EEEDB0600341994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A9F9B02EEEDB0400341994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A9F9E82EEEE3F900341994 /* ContentView.swift in Sources */,
+				18A9F9EB2EEEE41400341994 /* FolderScanner.swift in Sources */,
+				18A9F9EA2EEEE40E00341994 /* AppModel.swift in Sources */,
+				18A9F9EC2EEEE41900341994 /* Domain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A9F9BE2EEEDB0600341994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A9F9C82EEEDB0600341994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A9F9C42EEEDB0600341994 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A9F9B32EEEDB0400341994 /* Contextera */;
+			targetProxy = 18A9F9C32EEEDB0600341994 /* PBXContainerItemProxy */;
+		};
+		18A9F9CE2EEEDB0600341994 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A9F9B32EEEDB0400341994 /* Contextera */;
+			targetProxy = 18A9F9CD2EEEDB0600341994 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18A9F9D42EEEDB0600341994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18A9F9D52EEEDB0600341994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		18A9F9D72EEEDB0600341994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Contextera/Contextera.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MertBaran.Contextera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		18A9F9D82EEEDB0600341994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Contextera/Contextera.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MertBaran.Contextera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		18A9F9DA2EEEDB0600341994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MertBaran.ContexteraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contextera.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Contextera";
+			};
+			name = Debug;
+		};
+		18A9F9DB2EEEDB0600341994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MertBaran.ContexteraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contextera.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Contextera";
+			};
+			name = Release;
+		};
+		18A9F9DD2EEEDB0600341994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MertBaran.ContexteraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Contextera;
+			};
+			name = Debug;
+		};
+		18A9F9DE2EEEDB0600341994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MertBaran.ContexteraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Contextera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A9F9AF2EEEDB0400341994 /* Build configuration list for PBXProject "Contextera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A9F9D42EEEDB0600341994 /* Debug */,
+				18A9F9D52EEEDB0600341994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A9F9D62EEEDB0600341994 /* Build configuration list for PBXNativeTarget "Contextera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A9F9D72EEEDB0600341994 /* Debug */,
+				18A9F9D82EEEDB0600341994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A9F9D92EEEDB0600341994 /* Build configuration list for PBXNativeTarget "ContexteraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A9F9DA2EEEDB0600341994 /* Debug */,
+				18A9F9DB2EEEDB0600341994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A9F9DC2EEEDB0600341994 /* Build configuration list for PBXNativeTarget "ContexteraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A9F9DD2EEEDB0600341994 /* Debug */,
+				18A9F9DE2EEEDB0600341994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A9F9AC2EEEDB0400341994 /* Project object */;
+}
