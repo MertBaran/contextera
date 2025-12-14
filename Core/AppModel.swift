@@ -46,7 +46,7 @@ final class AppModel: ObservableObject {
 
             var allNodes = scanned
 
-            // Ensure root node is always present
+            // root node is always present
             if !allNodes.contains(where: { $0.path == rootURL.path }) {
                 allNodes.insert(
                     FileNode(
@@ -72,7 +72,7 @@ final class AppModel: ObservableObject {
                 // Folders before files
                 if $0.kind != $1.kind { return $0.kind == .folder }
 
-                // Same type → path order
+                // Same type -> path order
                 return $0.path.localizedStandardCompare($1.path) == .orderedAscending
             }
         } catch {

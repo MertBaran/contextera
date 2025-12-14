@@ -30,7 +30,7 @@ struct DefaultFolderScanner: FolderScanning {
             let isDir = values?.isDirectory ?? false
             let isFile = values?.isRegularFile ?? (!isDir)
 
-            // Keep it simple: index folders and regular files.
+            // index folders and regular files.
             if !(isDir || isFile) { continue }
 
             let kind: NodeKind = isDir ? .folder : .file
@@ -39,8 +39,8 @@ struct DefaultFolderScanner: FolderScanning {
             let modifiedAt = values?.contentModificationDate
             let sizeBytes = values?.fileSize.map { Int64($0) }
 
-            // NOTE: This is not a stable identity across moves/renames.
-            // We will replace this with a true file identifier later.
+            // not a stable identity across moves/renames.
+            // TODO: replace this with a true file identifier later.
             let id = path
 
             results.append(
